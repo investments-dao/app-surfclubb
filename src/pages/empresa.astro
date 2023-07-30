@@ -1,0 +1,104 @@
+---
+import "../style/global.css";
+import Navbar from "../components/Navbar.astro";
+const siteTitle = "Surfclubb Modelos de simulador de olas artificiales";
+const description = "Modelos de maquinas de olas artificiales.";
+
+
+import Youtubesvg from "../assets/platforms/youtube.svg.astro";
+import Twittersvg from "../assets/platforms/twitter.svg.astro";
+
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="description" content={description} />
+    <meta name="twitter:image" content="images/logo.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@surfclubb" />
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/images/logo.svg" />
+    <title>{siteTitle}</title>
+    <meta name="theme-color" content="#000000" />
+
+    <script defer data-domain="surfclubb.com" src="/src/scrypts/scryptPortada.js"
+    ></script>
+  </head>
+  <Navbar />
+  <body>
+    <main>
+      <div class="absolute right-0 z-10 p-4 text-right text-xl font-bold">
+        <a class="text-black" href="https://www.youtube.com/c/surfclubbcom">Youtube</a
+        >
+
+        <br />
+        <a class="text-black" href="https://twitter.com/surfclubbcom">Twitter</a>
+        <br />
+        <a class="text-black" href="/blog">Blog</a>
+      </div>
+      <div class="flex flex-col items-center overflow-visible">
+        <div
+          class="animated-bg relative flex h-[40vh] w-full flex-col items-center justify-center px-4 pt-2 pb-16"
+        >
+          <img
+            src={"/assets/t3-text-block.svg"}
+            class="pointer-events-none z-10 h-full select-none rounded-xl"
+            alt="Surfclubb logo"
+          />
+          <div class="bg-blend absolute bottom-0 z-0 h-24 w-full"></div>
+        </div>
+        <div class="pt-2"></div>
+        <div class="flex flex-col justify-center px-4">
+          <h4 class="text-center text-2xl">Surfclubb.com</h4>
+          
+          <div class="py-4">Estas buscando hacer surf con olas artificiales...</div>
+          <h4 class="text-center text-xl text-theo-blue">
+            <a href="/links" rel="prefetch">Modelo Individual</a>
+          </h4>
+          <div class="text-center text-xl font-bold">O</div>
+          <h4 class="mb-2 text-center text-xl text-theo-blue">
+            <a href="https://surfclubb.com">Modelo-Doble</a>
+          </h4>
+          
+          <img
+          src={"/assets/logo-NFT.png"}
+          class="w-60"
+          alt="T3 logo"
+          width={200}
+        />
+            <div class="pt-4"></div>
+            <p class="text-center">Empieza a surfear con nuestras máquinas de olas artificiales.</p>
+          </a>
+        </div>
+        <div class="absolute bottom-0 flex h-16 gap-6 p-4 text-slate-200">
+          <a
+            href="https://www.youtube.com/c/surfclubbcom"
+            class="flex gap-2 align-baseline"
+          >
+            <Youtubesvg />
+            <span class="hidden md:block">YouTube</span>
+          </a>
+
+          <a
+            href="https://twitter.com/surfclubbcom"
+            class="flex gap-2 align-baseline"
+          >
+            <Twittersvg />
+            <span class="hidden md:block">Twitter</span>
+          </a>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  body {
+    background-color: #e8dcfe;
+  }
+</style>

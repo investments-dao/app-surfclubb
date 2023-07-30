@@ -1,0 +1,82 @@
+---
+import "../style/global.css";
+import Navbar from "../components/Navbar.astro";
+const siteTitle = "Productos";
+const description = "Modelos piscinas de olas artificiales.";
+
+
+import Youtubesvg from "../assets/platforms/youtube.svg.astro";
+import Twittersvg from "../assets/platforms/twitter.svg.astro";
+
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="description" content={description} />
+    <meta name="twitter:image" content="images/logo.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@surfclubb" />
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/images/logo.svg" />
+    <title>{siteTitle}</title>
+    <meta name="theme-color" content="#000000" />
+
+    <script defer data-domain="surfclubb.com" src="/src/scrypts/scryptPortada.js"
+    ></script>
+  </head>
+  <Navbar />
+  <body class="h-screen bg-gradient-to-b from-[#300171] to-gray-900">
+    <main>
+      <div
+        class="flex h-screen w-full items-center justify-center p-4 align-middle text-slate-200"
+      >
+        <div
+          class="grid grid-cols-1 md:grid-cols-[1fr_auto] grid-rows-2 md:grid-rows-[1fr]"
+        >
+         
+          <div class="px-4 py-4 text-center md:py-0 md:text-left">
+            <h1 class="text-2xl font-bold leading-none">Productos</h1>
+            <a href="/modelos">
+              <h3 class="text-xl">MODELOS</h3>
+            </a>
+
+            
+          </div>
+        </div>
+
+        <div class="absolute bottom-0 flex h-16 gap-6 p-4 text-slate-200">
+          <a
+            href="https://www.youtube.com/c/surfclubbcom"
+            class="flex gap-2 align-baseline"
+          >
+            <Youtubesvg />
+            <span class="hidden md:block">YouTube</span>
+          </a>
+
+          <a
+            href="https://twitter.com/surfclubbcom"
+            class="flex gap-2 align-baseline"
+          >
+            <Twittersvg />
+            <span class="hidden md:block">Twitter</span>
+          </a>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  
+    /* background */
+  body {
+    background-color: #e8dcfe;
+  }
+    
+  </style>
+  
