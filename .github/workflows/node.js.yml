@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on:  ubuntu-self-hosted
+    runs-on: self-hosted
     strategy:
       matrix:
         node-version: [18.x]
