@@ -1,7 +1,7 @@
 ---
 publishDate: 'Nov 02 2022'
 title: "Instrucciones para practicar surf en olas artificiales"
-snippet: "Observa nuestros consejos para practicar Surf en la ola artificial «NEW WAVE» by SURF INDOOR BLANES"
+description: "Observa nuestros consejos para practicar Surf en la ola artificial «NEW WAVE» by SURF INDOOR BLANES"
 image: "/surfclubb.com2_.jpg"
 tags: [ olas artificiales, surf, productos]
 ---

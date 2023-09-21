@@ -1,12 +1,12 @@
 ---
-publishDate: 'Nov 22 2022'
+publishDate: 'Nov 02 2022'
 title: "Comparativa de Fabricantes de Máquinas de olas artificiales"
 description: "Este articulo pretende informar y hacer una comparativa entre fabricantes de olas artificiales."
-image: "/surfclubb.com11.png",
+image: '/surfclubb.com11.png'
 tags: [ olas artificiales, surf, productos]
 ---
 
-## COMPARATIVA ENTRE FABRICANTES DE MÁQUINAS DE OLAS ARTIFICIALES
+## Comparativa de fabricantes de máquinas de olas artificiales
 
 ### Además de nosotros mismos hemos elegido estos dos fabricantes de olas, porque entendemos que son de los más conocidos y parecidos entre sí.
 
@@ -69,13 +69,4 @@ Debido a todo lo expuesto anteriormente nuestro diseño a nivel tecnológico es 
 | SURFCLUBB  | 90 Kw		   | +/-30.000L   | 12m x 6m3    | 28 m2         | BARATO  | SI                         | SI
 | FLOWRIDER  | 90 kw       | +/-106.000L  | 16,25m x 6,7m| 28 m2         | CARO    | NO                         |	NO DISP
 | WAVESURFER | 110 Kw      |	No-Disp	    |15m x 6m      | 36 m2         | MEDIO   | NO                         | NO DISP  
-
-CONCEPTO, POTENCIA, VOLUMEN DE AGUA, DIMENSIONES, ÁREA SURFEABLE, PRECIOS, MOTOR EXTERIOR ELEC/GASOIL, DISEÑO ADAPTABLE.
-
-SURFCLUBB 90 Kw, +/-30.000L, 12m x 6m, 28 m2, BARATO, SI, SI.	  	    
-
-FLOWRIDER 90 Kw, +/-106.000L, 16,25m x 6,7m,	28 m2, CARO,	NO,	NO DISP.    
-
-WAVESURFER  110 Kw,	No-Disp,	15m x 6m,	36 m2, MEDIO,	NO, NO DISP.   
-
 

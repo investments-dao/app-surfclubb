@@ -2,7 +2,6 @@
 publishDate: 'Nov 02 2022'
 title: "SIMULADOR DE SURF – OLAS ARTIFICIALES"
 description: "¿En qué consiste un simulador de surf?"
-excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum.'
 image: "/surfclubb.com4_.jpg"
 tags: [ olas artificiales, surf, productos]
 ---
