@@ -146,10 +146,8 @@ export const heroData: HeroProps = {
     </>
   ),
   callToAction: {
-    text: 'Detalles Tecnicos',
-    href: '/',
-    icon: IconDownload,
-    targetBlank: true,
+    text: 'Contacto',
+    href: '/contact',
     btnType: 'primary',
   },
   callToAction2: {
@@ -190,13 +188,12 @@ export const modelosData: HeroProps = {
     'Podemos fabricar el generador olas artificiales o la piscina de olas artificiales que mejor se adapte a sus necesidades.',
   callToAction: {
     text: 'Individual',
-    href: '/modelos/individual',
-    targetBlank: true,
+    href: '/#modelos/individual',
     btnType: 'primary',
   },
   callToAction2: {
     text: 'Doble',
-    href: '/modelos/doble',
+    href: '/#modelos/doble',
   },
   image: {
     src: modelosImg,
