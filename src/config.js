@@ -1,7 +1,7 @@
 module.exports.SITE = {
   name: 'Surfclubb',
 
-  origin: 'https://new-wave.vercel.app/',
+  origin: 'https://test.surfclubb.com/',
   basePathname: '/',
   trailingSlash: false,
 
