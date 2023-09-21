@@ -1,0 +1,168 @@
+---
+publishDate: 'Nov 02 2022'
+title: 'Publicación de ejemplo de tipografía'
+description: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor.'
+
+tags: [ surfclubb, blog, mdx,]
+---
+
+import Button from "@components/ui/button.astro";
+
+Un pequeño ejemplo de uso.
+
+## <a name="Elementos en línea"></a>Elementos en línea
+
+[Subrayado](#!) 
+
+`entre comillas` 
+
+**Esto es un texto en negrita** y __esto también lo es__
+
+*Esto es un texto en cursiva* y  _esto también lo es_
+
+**_Esto es un texto en cursiva y  en negrita_**
+
+# <a name="Headings">Encabezados</a> H1
+
+Ejemplo H1 = # <a name="Headings">Encabezados</a> H1.
+
+## Encabezados H2
+
+Ejemplo H2 = ## 
+
+### Encabezados H3
+
+Ejemplo H3 = ### 
+
+#### Encabezados H4 solo por ver
+
+Ejemplo H4 = #### 
+
+##### Encabezados H5 solo por ver
+
+Ejemplo H5 = #####
+
+####### Encabezados H6 solo por ver
+
+Ejemplo H6 = ###### 
+
+
+[[Arriba]](#top)
+
+Ejemplo = [[Arriba]]" + "(#top)
+
+## <a name="Paragraphs"></a>Paragraphs
+
+ ## <a name="Negrita"></a>Negrita  = Ejemplo
+
+[[Top]](#top)
+
+## <a name="Blockquotes"></a>Blockquotes
+
+texto. Lorem mollit laborum dolor amet est ut esse aute. Nostrud ex consequat id incididunt proident ipsum minim duis aliqua ut ex et ad quis.
+
+> Ipsum et cupidatat mollit exercitation enim duis sunt irure aliqua reprehenderit mollit. 
+
+> Qui est sit et reprehenderit aute est esse enim aliqua id aliquip ea anim. 
+
+Ipsum excepteur cupidatat sunt minim ad eiusmod tempor sit.
+
+> Deserunt excepteur adipisicing culpa pariatur cillum laboris ullamco nisi fugiat cillum officia.  
+
+Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat veniam ullamco occaecat do ut.
+
+[[Top]](#top)
+
+## <a name="Listas"></a>Listas
+
+### Lista ordenada
+
+1. Naranja
+2. Limón
+3. Excepto por los deseos de las personas que trabajan duro, ¿quién puede criticar el resultado? Dicen que algunos deberes deben ser cumplidos por la familia, para que el beneficio del trabajo sea compensado por el dolor.4. Marionberry
+5. Melon
+   - Cerveza
+   - Sandia
+6. Multifrutas
+
+### Lista desordenada
+
+- Naranja
+- Limón
+- Excepto por los deseos de las personas que trabajan duro, ¿quién puede criticar el resultado? Dicen que algunos deberes deben ser cumplidos por la familia, para que el beneficio del trabajo sea compensado por el dolor.4. Marionberry
+- Melon
+   - Cerveza
+   - Sandia
+- Multifrutas
+
+[[Top]](#top)
+
+## <a name="Horizontal"></a>Horizontal rule
+
+In dolore velit aliquip labore mollit minim tempor veniam eu veniam ad in sint aliquip mollit mollit. 
+
+---
+
+Non sit labore anim elit veniam Lorem minim commodo eiusmod irure do minim nisi. 
+
+[[Top]](#top)
+
+## <a name="Table"></a>Table
+
+Ejemplo tabla
+
+| Titulo 1 | Titulo 2 | Center align | Derecha   |  Izquierda |
+| :--------| :------: | :----------: | :-------: | --------:|
+| Item 1   | Item 2   |    Item 3    |      Item 4 |    Item 5|
+| Item 1   | Item 2   |    Item 3    |      Item 4 |    Item 5|
+| Item 1   | Item 2   |    Item 3    |      Item 4 |     tem 5|
+| Item 1   | Item 2   |    Item 3    |      Item 4 |     tem 5|
+| Item 1   | Item 2   |    Item 3    |      Item 4 |     tem 5|
+
+
+
+## <a name="Code"></a>Code
+
+### código en línea
+
+Duis duis est `code in text` . Anim magna `<strong>in culpa qui officia</strong>` dolor eiusmod esse amet aute cupidatat.
+
+### Destacado
+
+```js
+---
+publishDate: 'Aug 02 2022'
+title: 'Markdown elements demo post'
+---
+import Logo from "@components/ui/button.astro";
+
+## MDX
+
+<Button>Click</Button>
+```
+
+
+
+
+
+
+![Super wide](https://images.unsplash.com/photo-1471128466710-c26ff0d26143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2MDc4MTk3Mw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080)
+
+
+
+![Not so big](https://placekitten.com/300/300)
+
+
+
+
+
+
+<div>
+  <Button>Click Me</Button>
+</div>
+
+[[Listas]](#Listas)
+
+[[Table]](#Table)
+
+[[Top]](#top)
